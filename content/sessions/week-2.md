@@ -1,7 +1,7 @@
 ---
 section: Workshop Sessions
 nav_order: 2
-title: Week 2. Markdown and Data
+title: Week 2. The Web, Markdown, and Data
 topics: Text Editors; Authoring Web Content; Markup Languages
 ---
 

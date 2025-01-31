@@ -2,7 +2,7 @@
 section: Workshop Sessions
 nav_order: 4
 title: Week 4. Advanced Building and Basic Computational Methods
-topics: Customization; Computational Methods; CollectionBuilder
+topics: Customization; Computational Methods; Publication
 ---
 
 Today, we will further customize our exhibits. In doing so, we will gain a better understanding of how Jekyll reads our CollectionBuilder templates.

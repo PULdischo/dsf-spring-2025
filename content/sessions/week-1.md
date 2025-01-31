@@ -23,6 +23,20 @@ Before we get started, let's clarify some terms:
 
 [GitHub](https://github.com/), a popular web platform for hosting Git repositories–i.e. a place to store and sync your project files online. Think of it as Google Drive for code with super robust "track changes" baked in. Built around the powerful version control of Git, it provides a handy web interface for managing, editing, and collaborating on repositories.
 
+### Some GitHub Key Terms
+Infrastructure:
+
+- Repository: A collection of folders and files.
+- Branch: A parallel version of a repository. Allows for editing and experimentation without effecting the main branch or your project site.
+- Main: The default branch that will store the source code that generates your site.
+- readme: A file to provide information to the visitors of the repository such as who made it, what it does, and other basic information.
+
+Actions:
+- Clone: Copy your project to your very own computer.
+- Fork: Copy another user's repository to your account.
+- Commit: A Snapshot of your repository. The git equivalent of saving.
+
+## Getting Started with GitHub
 The steps below will familiarize you with the GitHub platform, and with how it tracks the changes you make to your files.
 
 ### Step 1. Create a GitHub account
@@ -57,7 +71,6 @@ Follow these steps to copy code from another repository into your own and start 
     - code: brings us back to main repo page
     - issues/pull requests/etc.: more advanced
     - settings: modify repo, lets go initiate github pages
-
 
 ### Step 4. Edit README file
 
