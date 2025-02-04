@@ -101,8 +101,11 @@ Make sure to organize your headings in hierarchical order (i.e. always nest Head
 1. From the base of your repository, click on the `index.md` link to open the file.
 2. In the first line of your `index.md` file, add a Heading 1 that is the title of your project or reads, `# Latin American Writers at Princeton`
 3. On line 3, add a Heading 2 that reads, `## Section 1`
-4. On line 4, add a Heading 2 that reads, `## Section 2`
-5. To see how your headings will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your headings will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
+4. On line 5, add a Heading 2 that reads, `## Section 2`
+5. To see how your headings will look once you commit your file:
+
+- If working in VS Code, right click your file tab and then click `open preview`.
+- If working in the GitHub interface, locate and click on the "Preview" tab (to the right of the "Edit File" tab), near the top of the file you're editing. Preview mode will allow you to see how your headings will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
 
 ---
 
@@ -188,8 +191,8 @@ A numbered list is created using a number followed by a period (`.`) in front of
 
 1. one
 2. two
-6. three
-2. four
+3. three
+4. four
 
 ##### Practice Using Lists
 

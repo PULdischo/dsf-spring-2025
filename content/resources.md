@@ -7,13 +7,13 @@ Below are resources that can provide additional support during and after our wor
 
 ## Workshop Session Slideshows
 
-Week 1: GitHub and Getting to Know Your Computer: [Google Slides](https://docs.google.com/presentation/d/18tWraQtlgoSq6CZRm3k9vQdRK8ABi-vkwz7cS3sG3Y0/edit?usp=sharing) or [PDF](https://github.com/PULdischo/dsf-static-web/blob/main/content/slideshows/week-1-overview-github.pdf)
+Week 1: GitHub and Getting to Know Your Computer: Slides coming soon!
 
-Week 2: The Web, Markdown, and Data: [Google Slides](https://docs.google.com/presentation/d/1ovPxnceUs9u_-wsv0J_GyyN2xAGE39bNFI9dBkeOPOY/edit?usp=sharing) or [PDF](https://github.com/PULdischo/dsf-static-web/blob/main/content/slideshows/week-2-web-markdown-data.pdf)
+Week 2: The Web, Markdown, and Data: Slides coming soon!
 
-Week 3: CollectionBuilder and Local Development: [Google Slides](https://docs.google.com/presentation/d/1BkUFoDdQwLynXRHVNME7px1d3gkWHnlOI6wXT05WbZ8/edit?usp=sharing) or [PDF](https://github.com/PULdischo/dsf-static-web/blob/main/content/slideshows/week-3-collectionbuilder-local-dev.pdf)
+Week 3: CollectionBuilder and Local Development: Slides coming soon!
 
-Week 4: Advanced Building and Basic Computational Methods: [Google Slides](https://docs.google.com/presentation/d/1_7TWfbNWmuaBw0hI1MYg4ZpXjhFEzY5BEgyAlaKSMtA/edit?usp=sharing) or [PDF](https://github.com/PULdischo/dsf-static-web/blob/main/content/slideshows/week-4-advanced-building-and-basic-computational-methods.pdf)
+Week 4: Advanced Building and Basic Computational Methods: Slides coming soon!
 
 ## Git & GitHub
 
