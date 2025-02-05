@@ -70,7 +70,7 @@ Follow these steps to copy code from another repository into your own and start 
 2. Explore navigation bar:
     - code: brings us back to main repo page
     - issues/pull requests/etc.: more advanced
-    - settings: modify repo, lets go initiate github pages
+    - settings: modify repo, initiate github pages
 
 ### Step 4. Edit README file
 
@@ -112,28 +112,6 @@ Let's take a closer look at the changes you've made to the README file:
 
 3. Click your repository's name (located in the top left of the window) to return to the repository's home page.
 
-### Step 7. Add a New File to the Repository
-
-Now it's time to add a new file to your project.
-
-1. On your repository's home page, locate and click the "Add file" button, situated to the right above your repository's files. When this button is clicked, a drop-down menu will appear. Select the option "Create new file".
-2. An option to name your file will appear toward the top of your screen. Give your file the name: `new-file.txt`
-3. Add the following sentence to the body of your text file: `This is a new file in my GitHub repository.`
-4. Commit your new file to your repository by adding the commit message `add new file` (just as you did in the "Make a Commit" section above), and pressing the green "Commit new file" button.
-
-### Step 8. Check Out the Repository's History
-
-As you continue to add files and make commits to your repository, there may come a time in which you need to view all of the edits you've made to your files.
-Let's view all the changes we've made to the repository so far.
-
-1. On your repository's home page, locate the commit count for your repository, situated underneath the green "Code" button and to the right of the clock icon. It should display a number followed by the word "commits" (example: "3 commits"): 
-2. Click on this commit count link.
-
-    You are now viewing your repository's history (all the commits that have ever been made to your repository).
-
-3. Click on the commit message `update project title` to view the changes that were made as part of that commit.
-4. Click your repository's name (located in the top left of the window) to return to the repository's home page.
-
 ## Remote to Local
 
 While GitHub's interface allows for editing, developing, and launching a website, working locally will help you work effectively and efficiently. This section will introduce you to the concept of remote and local repositories through the use of GitHub Desktop.
@@ -171,3 +149,8 @@ While GitHub's interface allows for editing, developing, and launching a website
     - Open the repository in your external editor
     - View the files of your repository in Finder/Windows Explorer
     - Open the repository page on GitHub in your browser
+
+## Homework
+
+1. Please try to [download and install VS Code](https://code.visualstudio.com/download) (if you do not have a different preferred text editor) before our next session. If you have trouble, we can walk through the process during our session.
+2. Begin collection five to ten objects for your prototype website. We will discuss further next session, but if you have you can read through the [Object Guidelines](https://collectionbuilder.github.io/cb-docs/docs/objects/csv-objects/#object-guidelines-for-collectionbuilder-csv) (just the section the page jumps to) and [metadata information](https://collectionbuilder.github.io/cb-docs/docs/metadata/) from [CollectionBuilder](https://collectionbuilder.github.io/). If these guidelines are confusing or you’re not sure what they’re asking for, don’t worry, we will also walk through it together.
