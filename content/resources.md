@@ -7,7 +7,7 @@ Below are resources that can provide additional support during and after our wor
 
 ## Workshop Session Slideshows
 
-Week 1: GitHub and Getting to Know Your Computer: Slides coming soon!
+Week 1: GitHub and Getting to Know Your Computer: [Google Slides](https://docs.google.com/presentation/d/1s2ub0BxRURWum5EonvCYBr1uUdeqe8uvBMbkRq7dNlA/edit?usp=sharing)
 
 Week 2: The Web, Markdown, and Data: Slides coming soon!
 
