@@ -7,13 +7,34 @@ topics: Text Editors; Authoring Web Content; Markup Languages
 
 ## Learning Objectives
 
+- Learn some best practices for file naming and metadata.
 - Review Git and GitHub
 - Learn about some of the building blocks of the web.
 - Become familiar with your text editor (VS Code).
 - Write with Markdown.
-- Learn some best practices for file naming and metadata.
+- Learn software that makes up development environment
+
+## File Naming and Metadata Best Practices
+
+Following best practices make us good citizens within the user communities we join and facilitates the sustainability of our digital projects. For this workshop series, we need to follow the best practices or conventions shared by the CollectionBuilder team. 
+
+### CB File Naming Conventions
+
+- all lowercase
+- no spaces
+- no special characters (undercscores `_` are ok)
+
+### CB Metadata Best Practices
+
+- Don't use Excel to create or open your metadata spreadsheet
+- Use UTF-8 encoding
+- Strip extra white space
+- Use a semicolon to separate multiple values within a field
+
+To explore CB's conventions further, review their [object](https://collectionbuilder.github.io/cb-docs/docs/objects/gh-objects/) and [metadata](https://collectionbuilder.github.io/cb-docs/docs/metadata/) guidelines for the CollectionBuilder GitHub Pages Template.
 
 ## The Web and Markup Languages
+
 We will explore the building blocks of websites and learn some basics of markup languages. Our focus will be on:
 
 - The anatomy of a URL
@@ -24,9 +45,21 @@ We will use [dillinger.io](https://dillinger.io/) to explore the relationship be
 The accompanying slideshow will be made available after our session.
 
 ## Getting to Know Your Text Editor
+
 While any text editor is welcome, we recommend [Visual Studio Code](https://code.visualstudio.com/) for this workshop series. VS code is commonly used and has a lower barrier to entry. Plus its free! If you haven't already, please [download VS Code](https://code.visualstudio.com/Download).
 
 Text editors allow you to easily read and edit plain text files like the ones we will use to build a website in this course. We will hold a live demo to explore the basics of VS Code and continue using the text editor throughout our series.
+
+## Installing and Integrating Git
+
+VS Code makes it easy to use version control within the interface. We will make sure git is installed on your machine, do some basic commands on the command line, and configure git with GitHub so that we can work from within VS Code the remainder of this series.
+
+Check and [configure git](https://collectionbuilder.github.io/cb-docs/docs/software/git/):
+- The command line can tell you if you have git, before you try to download it.
+    - Open the command line (aka terminal, shell, bash, etc.) and type the command `git --version`
+    - If a message appears with your version of git, then you are all set. If not, then you must follow CB's documenation to install and configure git.
+- Be sure to follow the path for your computer/operating system.
+- Ignore the install GitHub Desktop part of the documentation if you already completed that step during an earlier session.
 
 ## Introduction to Markdown
 
@@ -143,7 +176,8 @@ This is an early foray into learning more about Latin American writers with mate
 Rather than beginning this project with a deep dive into the archives, I decided to experiment with building a new corpus by starting with author names listed in the collection title and then linking these information from Wikidata to those names. What resulted was a small, yet useful dataset with demographic information about some of the Latin American writers present in the archives here..
 ```
 
-2. To see how your paragraphs will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your paragraphs will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
+- If working in VS Code, right click your file tab and then click `open preview`.
+- If working in the GitHub interface, locate and click on the "Preview" tab (to the right of the "Edit File" tab), near the top of the file you're editing. Preview mode will allow you to see how your headings will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
 
 ---
 
@@ -173,7 +207,8 @@ Again, the asterisks won't be visible on your webpage, but your text will appear
 ***Controversy surrounded Garro during the Mexican student movement of the 1960s. The government accused her of instigating the student movement that threatened the power of the long standing Mexican ruling party, the PRI. At the same time, some members of the movement accused Garro of betraying the movement to the government following the massacre at Tlatelolco in 1968.***
 ```
 
-2. To see how your emphasized text will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your emphasized text will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
+- If working in VS Code, right click your file tab and then click `open preview`.
+- If working in the GitHub interface, locate and click on the "Preview" tab (to the right of the "Edit File" tab), near the top of the file you're editing. Preview mode will allow you to see how your headings will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
 
 ---
 
@@ -217,7 +252,8 @@ Types of objects found in the "Latin American Writers at Princeton" digital exhi
 - Correspondence
 ```
 
-3. To see how your lists will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your lists will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
+- If working in VS Code, right click your file tab and then click `open preview`.
+- If working in the GitHub interface, locate and click on the "Preview" tab (to the right of the "Edit File" tab), near the top of the file you're editing. Preview mode will allow you to see how your headings will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
 
 ---
 
@@ -235,7 +271,8 @@ To link to another page or site, insert the link title (what you want displayed 
 [Archives of Latin American Writers and Intellectuals in Special Collections](https://libguides.princeton.edu/latinammss)
 ```
 
-2. To see how your hyperlink will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your hyperlink will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
+- If working in VS Code, right click your file tab and then click `open preview`.
+- If working in the GitHub interface, locate and click on the "Preview" tab (to the right of the "Edit File" tab), near the top of the file you're editing. Preview mode will allow you to see how your headings will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
 
 ---
 
@@ -257,39 +294,12 @@ Add an image to your webpage using the following formula:
 ![Half-length, stylized portrait of Cortázar leaning on table with arms crossed, gazing out at viewer..](http://lgimages.s3.amazonaws.com/data/imagemanager/10890/julio_silva_of_julio_cortazr.jpg)"Illustration:  Julio Silva (born 1930), Julio Cortázar, 1991."
 ```
 
-2. To see how your image will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your image will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
+- If working in VS Code, right click your file tab and then click `open preview`.
+- If working in the GitHub interface, locate and click on the "Preview" tab (to the right of the "Edit File" tab), near the top of the file you're editing. Preview mode will allow you to see how your headings will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
 
 ---
 
-### Step 8. Block quotes
-
-Block quote formatting can be used to distinguish sections of your text.
-
-Add `>` to the beginning of a line of text to make it a block quote.
-
-Example: 
-
-```
-> Block quote.
-> Continuing the quote.
-```
-
-Displays as:
-
-> Block quote.
-> Continuing the quote.
-
-1. Mimic or copy the following block quote code and paste it underneath the heading `## Section 1` in your `index.md` file. Make sure to leave a blank line between the Section 1 heading and the following text:
-
-```
-> Nineteen countries are represented as birthplaces of Latin American writers in the collections. Argentina, Cuba, and Mexico are the primary origins of the writers here.
-```
-
-2. To see how your block quote will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your block quote will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
-
----
-
-### Step 9. Commit Your Changes
+### Step 8. Commit Your Changes
 
 Congratulations, you've just finished creating your first Markdown document!
 
@@ -300,7 +310,7 @@ Congratulations, you've just finished creating your first Markdown document!
 5. Click the "commit" button to save your changes.
 6. Right click your markdown document in the VS Code explorer and select `open preview` to view your document as html.
 
-### Step 10. Push to Remote
+### Step 9. Push to Remote
 
 1. Find `push origin` either in the top bar or the blue button in the main viewer of your GitHub Desktop client.
 2. Click `push origin`.
@@ -313,27 +323,22 @@ Congratulations, you've just finished creating your first Markdown document!
 - [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 - [Github Guides: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
+## Our Development Environment
 
-## File Naming and Metadata Best Practices
+The following combination of software, tools, and file types make your website possible. These are not the only solutions, but are great starting points. Here are the basics:
 
-Following best practices make us good citizens within the user communities we join and facilitate the sustainability of our digital projects. For this workshop series, we need to follow the best practices or conventions shared by the CollectionBuilder team. 
+- Text editor: VS Code
+- Version Control: GitHub, GitHub Desktop, and/or Git
+- Programming Language: Ruby
+- Development tools: Jekyll, markdown (file type and markup language), csv files
 
-### CB File Naming Conventions
+You will need to set up of your development environment by following specific documentation from the folks at [CollectionBuilder's guidelines](https://collectionbuilder.github.io/cb-docs/docs/software/). Here's what that process looks like:
 
-- all lowercase
-- no spaces
-- no special characters (undercscores `_` are ok)
-
-### CB Metadata Best Practices
-
-- Don't use Excel to create or open your metadata spreadsheet
-- Use UTF-8 encoding
-- Strip extra white space
-- Use a semicolon to separate multiple values within a field
-
-To explore CB's conventions further, review their [object](https://collectionbuilder.github.io/cb-docs/docs/objects/gh-objects/) and [metadata](https://collectionbuilder.github.io/cb-docs/docs/metadata/) guidelines for the CollectionBuilder GitHub Pages Template.
+- [Install Ruby](https://collectionbuilder.github.io/cb-docs/docs/software/ruby/): Note that there are different installation steps depending on your operating system, select Mac, Windows, or Linux based on your computer. 
+- After you successfully install Ruby, you can [install Jekyll](https://collectionbuilder.github.io/cb-docs/docs/software/jekyll/). If needed, you can also consult [Jekyll's documentation](https://jekyllrb.com/docs/).
 
 ## Homework
-Collect your objects, place those objects in a folder on your hard drive, and apply file naming best practices to your objects.
-Prepare your metadata for CollectionBuilder.
-Set up your development environment. If you are unsure of what to do or struggle to set up the environment, please come to office hours on October 9.
+
+- Set up your development environment. If you are unsure of what to do or struggle to set up the environment, please come to office hours on February 25 or 26.
+- Collect your objects, place those objects in a folder on your hard drive, and apply file naming best practices to your objects.
+- Prepare your metadata for CollectionBuilder.

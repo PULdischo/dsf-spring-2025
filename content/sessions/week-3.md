@@ -9,36 +9,11 @@ Now that we've covered some basics about version control, the web, markdown, and
 
 ## Learning Objectives
 
-- Review the components of our development environment.
 - Review the components of a CollectionBuilder project.
 - Understand how Jekyll generates a CollectionBuilder site.
+- Initiate GitHub Pages function.
 - Edit the main building blocks of your site.
 - View your site locally.
-
-## Our Development Environment
-You have been compiling your development environment throughout this workshop series. The following combination of software, tools, and file types make your website possible. These are not the only solutions, but are great starting points. Here are the basics:
-
-- Text editor: VS Code
-- Version Control: GitHub, GitHub Desktop, and/or Git
-- Programming Language: Ruby
-- Development tools: Jekyll, markdown (file type and markup language), csv files
-
-Some of this work requires you to use the command line, which is also referred to as the shell, terminal, console, cmd, or Bash. The command line functions as follows:
-
-1. you type something on the input line and press return
-2. the shell interprets the command
-3. software / OS executes it
-4. the shell prints the output
-5. repeat!
-
-At this point, you should have completed the set up of your development environment by following specific documentation from the folks at [CollectionBuilder's guidelines](https://collectionbuilder.github.io/cb-docs/docs/software/). Here's a recap of that process:
-
-- [Install Ruby](https://collectionbuilder.github.io/cb-docs/docs/software/ruby/): Note that there are different installation steps depending on your operating system, select Mac, Windows, or Linux based on your computer. 
-- After you successfully install Ruby, you can [install Jekyll](https://collectionbuilder.github.io/cb-docs/docs/software/jekyll/). If needed, you can also consult [Jekyll's documentation](https://jekyllrb.com/docs/).
-- Check and [configure git](https://collectionbuilder.github.io/cb-docs/docs/software/git/):
-    - The command line can tell you if you have git, before you try to download it.
-    - Be sure to follow the path for your computer/operating system.
-    - Ignore the install GitHub Desktop part of the documentation if you already completed that step during an earlier session.
 
 ## CollectionBuilder and Jekyll: How it Works
 
