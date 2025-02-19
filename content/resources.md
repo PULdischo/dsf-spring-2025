@@ -9,7 +9,7 @@ Below are resources that can provide additional support during and after our wor
 
 Week 1: GitHub and Getting to Know Your Computer: [Google Slides](https://docs.google.com/presentation/d/1s2ub0BxRURWum5EonvCYBr1uUdeqe8uvBMbkRq7dNlA/edit?usp=sharing)
 
-Week 2: The Web, Markdown, and Data: Slides coming soon!
+Week 2: The Web, Markdown, and Data: [Google Slides](https://docs.google.com/presentation/d/1WZE_RDo2Ajjr2nVWqx6a0neXKhFmIDhC_FpLtdYXr-Q/edit?usp=sharing)
 
 Week 3: CollectionBuilder and Local Development: Slides coming soon!
 
