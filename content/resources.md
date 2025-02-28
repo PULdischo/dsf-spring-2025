@@ -11,7 +11,7 @@ Week 1: GitHub and Getting to Know Your Computer: [Google Slides](https://docs.g
 
 Week 2: The Web, Markdown, and Data: [Google Slides](https://docs.google.com/presentation/d/1WZE_RDo2Ajjr2nVWqx6a0neXKhFmIDhC_FpLtdYXr-Q/edit?usp=sharing)
 
-Week 3: CollectionBuilder and Local Development: Slides coming soon!
+Week 3: CollectionBuilder and Local Development: [Google Slides](https://docs.google.com/presentation/d/1SkbMBuufQpu_rr3sQJf53l8HZ70N5vzGdsIMLXSt_8Q/edit?usp=sharing)
 
 Week 4: Advanced Building and Basic Computational Methods: Slides coming soon!
 

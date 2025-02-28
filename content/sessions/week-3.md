@@ -123,7 +123,7 @@ The first line at the top of the file will look like this:
 1. If you have not already, download your Google Sheets metadata as a .csv file:
     - Click “File” and select “Download as Comma-separated values”
     - Locate the metadata CSV you’ve just downloaded on your computer (probably in “Downloads” folder!) – but don’t open it!
-    - Without opening it (to avoid issues with Excel scrambling your UTF-8 encoding), rename this file using all lowercase letters, no spaces, and no special characters. For example: “psychiana-demo.csv”, “idaho-waters.csv”, “hjccc-dev.csv”
+    - Without opening it (to avoid issues with Excel scrambling your UTF-8 encoding), rename this file using all lowercase letters, no spaces, and no special characters. For example: "demo-metadata.csv”, “latam-writers-exhibit.csv”, “my-project.csv”
 2. Add your metadata CSV to the repository.
     - Locate your CSV in your File Explorer / Finder (probably in “Downloads”)
     - Locate your project repository. Use the GitHub Desktop shortcut or open the VS Code explorer. 
@@ -138,7 +138,7 @@ The first line at the top of the file will look like this:
     - no special characters (underscores _ are okay)
 2. Confirm that your files will not exceed GitHub storage limits.
     - GitHub repos shouldn't exceed 1GB of storage
-    - CollectionBuilder recommends that you keep the total storage of your objects fold to 500MB or less.
+    - CollectionBuilder recommends that you keep the total storage of your objects folder to 500MB or less.
 3. Select all your objects from your local machine and drag them to the objects folder in your project repository.
 4. Go to source control, stage (or add) your changes, write a commit message, commit these changes, and then push (sync) to your repository.
 
@@ -174,7 +174,7 @@ author: Your Name
 #
 # Set the metadata for your collection (the name of the csv file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: senjafuda-metadata
+metadata: latam-writers-exhibit
 ```
 4. Save, stage, commit, and push your changes.
 
@@ -194,9 +194,19 @@ Now it's time to see your work. We will generate our site locally. For anyone ha
 
 ### Step 11. Explore the relationship between your repository and the website
 
-1. Click around the local version of your website and see jekyll generated. You should see some of your content and images as well as other content that we have not yet edited or customized.
+1. Click around the local version of your website and see what jekyll generated. You should see some of your content and images as well as other content that we have not yet edited or customized.
 2. Now return to your repository in VS Code and click into the pages folder: note that the names of the markdown pages here correspond to the names of the main page on the website.
 3. Note that these markdown pages are not the final pages served by Jekyll. Rather, they instruct Jekyll on how to create the final html pages served by GitHub pages. You can see that final html by navigating to the website. Right click “view page source” to see the html that creates these web pages.
+
+### Step 12.Launch your GitHub Pages site. (Optional)
+
+1. If you would like your site to be accessible on the web, navigate to your remote repository for your project on GitHub.
+2. On your repository homepage, click the Settings tab in the top right and then click Pages in the left side menu.
+3. Under Source leave the dropdown option as `deploy from a branch`.
+4. Use the dropdown to change from `none` to `main` (leave the folder option as `/root`). Then click the `Save` button. It will take a few minutes for your site to go live. You will see a message that your site is currently being built.
+5. After waiting a bit, refresh the page. If the build is successful, an alert will appear providing the URL to your live site. The URL will follow the pattern: `https://username.github.io/repository-name`.
+6. You can visit this URL to see changes to your live site. To ensure any changes you commit are complete, look for a green check mark. If there is still a brown dot next to your last commit message, then GitHub is still (re)building your page.
+
 
 ## Prep for Next Time
 
