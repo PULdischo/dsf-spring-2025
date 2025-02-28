@@ -214,4 +214,3 @@ For our last session, we will be adding more content, exploring different Collec
 - Explore [CollectionBuilder site examples](https://collectionbuilder.github.io/cb-examples/). Click through this site (which is built using the CB framework!) to find examples of different CollectionBuilder project. Then explore those projects and find features that you like and may want to try to replicate.
 - Write up content for different pages that we can then add via markdown during our next session.
 - Add any data that may facilitate visualizations, such as adding latitude and longitude to your metadata to allow for mapping.
-- Consider attending office hours (November 6, 10:30am to noon) to address any issues from today, ask questions, or just get work done!
