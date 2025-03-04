@@ -57,7 +57,7 @@ VS Code makes it easy to use version control within the interface. We will make 
 Check and [configure git](https://collectionbuilder.github.io/cb-docs/docs/software/git/):
 - The command line can tell you if you have git, before you try to download it.
     - Open the command line (aka terminal, shell, bash, etc.) and type the command `git --version`
-    - If a message appears with your version of git, then you are all set. If not, then you must follow CB's documenation to install and configure git.
+    - If a message appears with your version of git, then you are all set. If not, then you must follow [CB's documentation](https://collectionbuilder.github.io/cb-docs/docs/software/git/) to install and configure git.
 - Be sure to follow the path for your computer/operating system.
 - Ignore the install GitHub Desktop part of the documentation if you already completed that step during an earlier session.
 

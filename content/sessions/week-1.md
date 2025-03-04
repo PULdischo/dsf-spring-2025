@@ -128,9 +128,10 @@ While GitHub's interface allows for editing, developing, and launching a website
 
 ### Step 2. Clone Your Repository Using GitHub Desktop
 
-1. Select `clone repository`.
-2. Select repository we created in previous module. If you followed along, it will be titled `dsf-github-basics`.
-3. Click `clone`. 
+1. Using your browser, go to your GitHub dashboard or repository list and find the repository we created in the previous module. If you followed along, it will be titled `dsf-github-basics`.
+2. On your repository landing page, find the green button titled `< > Code` and click to open a drop down menu.
+3. Under the `local` tab, select `Open with GitHub Desktop`.
+4. GitHub Desktop will open and show your respository url and a suggested local path. If these look accurate and/or are acceptable, click `clone`. 
 
 ### Step 3. Explore GitHub Desktop and its Functionality
 
